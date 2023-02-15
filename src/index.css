@@ -1,3 +1,131 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;500;700;800;900&family=Red+Hat+Display:wght@400;500;700;900&family=Roboto&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+
+.header-link {
+  @apply font-outfit text-[22px] font-light not-italic leading-[104px];
+}
+
+
+
+/* GRADIENT */
+.bodyBgColor {
+  background: linear-gradient(
+    180deg,
+    #27272c 0%,
+    #1a1976 34.38%,
+    #3433a3 69.27%,
+    #2e2d4b 100%
+  );
+  height: 4600px;
+}
+
+
+.logo {
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 40px;
+text-transform: uppercase;
+color: #413953;
+text-shadow: white 1px 0px, white 1px 1px, white 0px 1px, white -1px 1px, white -1px 0px, white -1px -1px, white 0px -1px, white 1px -1px;
+
+}
+
+/* Green */
+.backgroundBtnTry {
+    background: linear-gradient(180deg, #52A39D 0%, #70AD7D 71.35%);
+}
+
+.borderStyle {
+    border: 1px solid #66AA88;
+}
+.titleHeroColor {
+  background: conic-gradient(
+    from 181.33deg at 51.16% 50%,
+    #005aa4 -39.37deg,
+    #81b2c9 46.87deg,
+    #84f9bd 127.5deg,
+    #48c088 178.12deg,
+    #008956 215.62deg,
+    #00a4ea 281.25deg,
+    #005aa4 320.63deg,
+    #81b2c9 406.88deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.modalColor {
+  background: linear-gradient(111.31deg, #fda0ff 1.12%, #4082ff 73.22%);
+}
+
+.footerLine {
+  background: linear-gradient(90deg, #fba0ff 0%, #4083ff 98.96%);
+}
+
+.sideBarBg {
+  background: linear-gradient(
+    179.33deg,
+    rgba(140, 152, 255, 0.75) 0%,
+    rgba(219, 174, 255, 0.75) 99.37%
+  );
+}
+
+.bgModal {
+  background: linear-gradient(90deg, #3e70dd 0%, #b285d5 100%);
+}
+
+.signInColor {
+  background: linear-gradient(90deg, #447fff 70.96%, #cb98f5 86.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.yourSelfColor {
+  background: linear-gradient(180deg, #ff6767 51.04%, #96b9fb 82.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.btnSeeAll {
+  background: linear-gradient(
+    90deg,
+    #df5a34 5.16%,
+    rgba(221, 129, 237, 0.97) 110.15%
+  );
+}
+
+.toDoColorText {
+  background: linear-gradient(180deg, #cb41ed 0%, #f7ebfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Color Balls */
+
+.purpleGradient {
+  background-color: #e39dff;
+  filter: blur(186px);
+}
+
+.blueGradient {
+  background-color: #4082ff;
+  filter: blur(199.5px);
+}
