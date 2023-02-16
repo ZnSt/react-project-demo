@@ -29,7 +29,8 @@ export const Hero = () => {
           </div>
         </div>
         <div>
-          <img src={saly} alt="saly" className="max-w-[120%]" />
+          <img src={saly}  alt="saly"  className="w-[100%] relative z-[5]" />
+          <div className='absolute z-[0]  w-[12%] h-[5%] top-[260px] right-[530px] rounded-full greenBlob '> </div>
         </div>
       </div>
     </section>
