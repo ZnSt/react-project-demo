@@ -7,13 +7,9 @@
   scroll-behavior: smooth;
 }
 
-
-
 .header-link {
-  @apply font-outfit text-[22px] font-light not-italic leading-[104px];
+  @apply font-outfit text-[28px] font-light not-italic leading-[104px];
 }
-
-
 
 /* GRADIENT */
 .bodyBgColor {
@@ -27,26 +23,25 @@
   height: 4600px;
 }
 
-
 .logo {
-font-family: 'Outfit';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 40px;
-text-transform: uppercase;
-color: #413953;
-text-shadow: white 1px 0px, white 1px 1px, white 0px 1px, white -1px 1px, white -1px 0px, white -1px -1px, white 0px -1px, white 1px -1px;
-
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #413953;
+  text-shadow: white 1px 0px, white 1px 1px, white 0px 1px, white -1px 1px,
+    white -1px 0px, white -1px -1px, white 0px -1px, white 1px -1px;
 }
 
 /* Green */
 .backgroundBtnTry {
-    background: linear-gradient(180deg, #52A39D 0%, #70AD7D 71.35%);
+  background: linear-gradient(180deg, #52a39d 0%, #70ad7d 71.35%);
 }
 
 .borderStyle {
-    border: 1px solid #66AA88;
+  border: 1px solid #66aa88;
 }
 .titleHeroColor {
   background: conic-gradient(
