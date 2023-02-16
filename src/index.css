@@ -30,7 +30,7 @@
   font-size: 48px;
   line-height: 40px;
   text-transform: uppercase;
-  color: #413953;
+  color: #2F253E;
   text-shadow: white 1px 0px, white 1px 1px, white 0px 1px, white -1px 1px,
     white -1px 0px, white -1px -1px, white 0px -1px, white 1px -1px;
 }
@@ -44,21 +44,11 @@
   border: 1px solid #66aa88;
 }
 .titleHeroColor {
-  background: conic-gradient(
-    from 181.33deg at 51.16% 50%,
-    #005aa4 -39.37deg,
-    #81b2c9 46.87deg,
-    #84f9bd 127.5deg,
-    #48c088 178.12deg,
-    #008956 215.62deg,
-    #00a4ea 281.25deg,
-    #005aa4 320.63deg,
-    #81b2c9 406.88deg
-  );
+  background: linear-gradient(92.11deg, #008956 -11.8%, #48C088 9.71%, #32E1A2 35.64%, #27CE7E 57.16%, #249EE2 86.95%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+ 
 }
 
 .modalColor {
@@ -86,7 +76,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+ 
 }
 
 .yourSelfColor {
@@ -94,7 +84,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+ 
 }
 
 .btnSeeAll {
@@ -110,17 +100,41 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+ 
 }
 
 /* Color Balls */
 
-.purpleGradient {
+.purpleBlob {
   background-color: #e39dff;
   filter: blur(186px);
 }
 
-.blueGradient {
+.blueBlob {
   background-color: #4082ff;
   filter: blur(199.5px);
+}
+
+
+.greenBlob {
+  background: rgba(64, 255, 71, 0.5);
+  filter: blur(295px);
+
+
+
+}
+
+.tealBlob {
+  background: #61ADB9;
+  filter: blur(180.5px);
+}
+
+.pinkBlob {
+background: #9E00FF;
+  filter: blur(400.5px);
+  position: absolute;
+    width: 1067px;
+    height: 160px;
+    left: 482px;
+    top: -18px;
 }
