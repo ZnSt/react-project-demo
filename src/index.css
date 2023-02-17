@@ -7,10 +7,6 @@
   scroll-behavior: smooth;
 }
 
-.header-link {
-  @apply font-outfit text-[28px] font-light not-italic leading-[104px];
-}
-
 /* GRADIENT */
 .bodyBgColor {
   background: linear-gradient(
@@ -21,6 +17,49 @@
     #2e2d4b 100%
   );
   height: 4600px;
+}
+
+.header-link {
+  @apply font-outfit text-[28px] font-light not-italic leading-[104px];
+}
+
+.list-bg {
+  background: rgba(202, 202, 202, 0.12);
+  border-radius: 18px;
+  height: 113px;
+  margin-left: auto;
+
+  margin-right: auto;
+}
+
+.strokeF {
+  position: absolute;
+  top: 0;
+  left: 330px;
+  width: 1px;
+  height: 112px;
+  background-color: transparent;
+  border-right: 1px solid rgba(217, 217, 217, 0.45);
+}
+
+.strokeS {
+  position: absolute;
+  top: 0;
+  left: 660px;
+  width: 1px;
+  height: 112px;
+  background-color: transparent;
+  border-right: 1px solid rgba(217, 217, 217, 0.45);
+}
+
+.strokeT {
+  position: absolute;
+  top: 0;
+  left: 990px;
+  width: 1px;
+  height: 112px;
+  background-color: transparent;
+  border-right: 1px solid rgba(217, 217, 217, 0.45);
 }
 
 .logo {
@@ -111,6 +150,15 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.containerColor {
+  background: linear-gradient(
+    111.86deg,
+    rgba(123, 140, 185, 0.21) 24.45%,
+    #32325b 88.54%
+  );
+  border-radius: 373px 40px;
 }
 
 /* Color Balls */

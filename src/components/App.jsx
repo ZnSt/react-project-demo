@@ -1,6 +1,7 @@
 import '../index.css';
 import { NavBar } from './NavBar';
 import { Hero } from './Hero';
+import { Project } from './Project';
 
 export const App = () => {
   return (
@@ -14,6 +15,12 @@ export const App = () => {
       <div className="flex items-center justify-center">
         <div className="w-full xl:max-w-[1280px]">
           <Hero />
+        </div>
+      </div>
+
+      <div className="flex items-center justify-center">
+        <div className="w-full xl:max-w-[1280px]">
+          <Project />
         </div>
       </div>
     </div>
