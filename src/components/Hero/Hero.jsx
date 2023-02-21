@@ -2,7 +2,7 @@ import space from '../../img/space.png';
 
 export const Hero = () => {
   return (
-    <section className="py-[125px]">
+    <section className="py-[160px] ">
       <div className="flex justify-around items-center">
         <div className="font-extrabold">
           <h1 className="font-outfit non-italic  text-[64px] leading-[68px] text-primaryText capitalize">
@@ -29,10 +29,13 @@ export const Hero = () => {
           </div>
         </div>
         <div>
-          <img src={space} alt="saly" />
+          <img src={space} alt="saly" className="w-[100%] relative z-[5]" />
+          <div   className='absolute z-[0]  w-[17%] h-[7%] top-[260px] right-[500px] rounded-full greenBlob '
+          ></div>
+          <div   className='absolute z-[0]  w-[17%] h-[7%] top-[480px] right-[560px] rounded-full tealBlob '
+          ></div>
         </div>
       </div>
-      <p style={{ textStroke: '1px white', color: 'transparent' }}>Kirin</p>
     </section>
   );
 };

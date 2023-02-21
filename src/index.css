@@ -15,24 +15,33 @@
 .bodyBgColor {
   background: linear-gradient(
     180deg,
-    #27272c 0%,
+    #17171b 0%,
     #1a1976 34.38%,
     #3433a3 69.27%,
     #2e2d4b 100%
   );
-  height: 4600px;
+  height: 4634px;
 }
 
 .logo {
-  font-family: 'Outfit';
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
+  
+  font-size: 58px;
   line-height: 40px;
   text-transform: uppercase;
-  color: #413953;
+  /* color: #1A1720;;
   text-shadow: white 1px 0px, white 1px 1px, white 0px 1px, white -1px 1px,
-    white -1px 0px, white -1px -1px, white 0px -1px, white 1px -1px;
+    white -1px 0px, white -1px -1px, white 0px -1px, white 1px -1px; */
+  text-shadow: 0 0 2px #fff;
+    color: #1A1720;
+}
+@supports(-webkit-text-stroke: 1px white) {
+  .logo {
+    text-shadow: none;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
 }
 
 /* Green */
@@ -44,29 +53,60 @@
   border: 1px solid #66aa88;
 }
 .titleHeroColor {
-  background: conic-gradient(
-    from 181.33deg at 51.16% 50%,
-    #005aa4 -39.37deg,
-    #81b2c9 46.87deg,
-    #84f9bd 127.5deg,
-    #48c088 178.12deg,
-    #008956 215.62deg,
-    #00a4ea 281.25deg,
-    #005aa4 320.63deg,
-    #81b2c9 406.88deg
-  );
+  background: linear-gradient(92.11deg, #008956 -11.8%, #48C088 9.71%, #32E1A2 35.64%, #27CE7E 57.16%, #249EE2 86.95%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+ 
 }
 
-.modalColor {
-  background: linear-gradient(111.31deg, #fda0ff 1.12%, #4082ff 73.22%);
+.GetStartedSection {
+  position: absolute;
+    width: 1120px;
+    height: 711px;
+    left: 400px;
+    top: 3450px;
+  
+    background: linear-gradient(111.31deg, #FDA0FF 1.12%, #4082FF 73.22%);
+    border-radius: 40px;
 }
 
-.footerLine {
-  background: linear-gradient(90deg, #fba0ff 0%, #4083ff 98.96%);
+.GSSText {
+  position: absolute;
+    width: 324px;
+    height: 60px;
+    left: 804px;
+    top: 3518px;
+  
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 60px;
+    /* identical to box height, or 167% */
+  
+    text-transform: uppercase;
+  
+    color: #000000;
+}
+ 
+.Be_A_Part_Text{
+  position: absolute;
+    width: 771px;
+    height: 164px;
+    left: 594px;
+    top: 3650px;
+  
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 90px;
+    
+  
+    text-transform: capitalize;
+  
+    color: #FFFFFF;
 }
 
 .sideBarBg {
@@ -86,7 +126,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+ 
 }
 
 .yourSelfColor {
@@ -94,7 +134,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+ 
 }
 
 .btnSeeAll {
@@ -110,17 +150,97 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+ 
 }
 
 /* Color Balls */
 
-.purpleGradient {
-  background-color: #e39dff;
+.purpleBlob {
+position: absolute;
+  width: 428px;
+  height: 452px;
+  left: 183px;
+  top: 3279px;
+
+  background: #E39DFF;
   filter: blur(186px);
 }
 
-.blueGradient {
-  background-color: #4082ff;
+.blueBlob {
+position: absolute;
+  width: 484px;
+  height: 468px;
+  left: 1209px;
+  top: 3814px;
+
+  background: #4082FF;
   filter: blur(199.5px);
 }
+
+
+.greenBlob {
+  background: rgba(64, 255, 71, 0.5);
+  filter: blur(295px);
+
+
+
+}
+
+.tealBlob {
+  background: #61ADB9;
+  filter: blur(180.5px);
+}
+
+.pinkBlob {
+background: #9E00FF;
+  filter: blur(400.5px);
+  position: absolute;
+    width: 1067px;
+    height: 160px;
+    left: 482px;
+    top: -18px;
+}
+
+.footerline {
+  position: absolute;
+    width: 100%;
+    height: 18px;
+    left: 0px;
+    top: 4616px;
+  
+    background: linear-gradient(90deg, #FBA0FF 0%, #4083FF 98.96%);
+}
+
+.footerText{
+  position: absolute;
+  
+  
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+  
+  
+    letter-spacing: 0.135em;
+    text-transform: capitalize;
+  
+    color: #FFFFFF;
+}
+
+.footerSecondaryText{
+font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 31px;
+  
+
+  letter-spacing: 0.135em;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+  position: absolute;
+}
+
+
