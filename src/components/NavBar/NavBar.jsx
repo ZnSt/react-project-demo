@@ -3,11 +3,12 @@ import { FiUser } from 'react-icons/fi';
 export const NavBar = () => {
   return (
     <header>
+      <div className=' z-[0] rounded-full  pinkBlob' />
       <nav className="flex items-center justify-between">
         <a href="#home" className="logo">
-          kirin
+        kirin
         </a>
-        <ul className="flex items-center justify-center gap-x-[60px] text-primaryText">
+        <ul className="flex items-center justify-center gap-x-[63px] text-primaryText">
           <li>
             <a href="#home" className="header-link">
               home
@@ -25,7 +26,7 @@ export const NavBar = () => {
           </li>
         </ul>
         <button className="">
-          <FiUser className="w-[30px] h-[30px] fill-white stroke-white" />
+          <FiUser className="w-[45px] h-[35px]   stroke-stone-400" />
         </button>
       </nav>
     </header>
