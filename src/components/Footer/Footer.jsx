@@ -33,8 +33,8 @@ export const Footer = () => {
             <input
                 type="text"
                 name="input"
-                placeholder="email Address" 
-                className="footerInput "></input>
+                placeholder="Email Address" 
+                className=" opacity-10  h-[66px] w-[360px] top-[4457px] absolute bg-gray-300 rounded-full left-[1160px]  placeholder:italic placeholder:text-black placeholder:text-bold block   border border-slate-300  py-2 pl-9 pr-3  focus:outline-none focus:border-white focus:ring-white focus:ring-1 sm:text-xl "></input>
 
             
         </div>
