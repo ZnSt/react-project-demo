@@ -25,7 +25,13 @@ export const App = () => {
         </div>
       </div>
       
-<GetStarted />
+
+       <div className="flex items-center justify-center">
+        <div className="w-full xl:max-w-[1280px]">
+          <GetStarted />
+        </div>
+      </div>
+
       
 
   
