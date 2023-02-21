@@ -15,24 +15,33 @@
 .bodyBgColor {
   background: linear-gradient(
     180deg,
-    #27272c 0%,
+    #17171b 0%,
     #1a1976 34.38%,
     #3433a3 69.27%,
     #2e2d4b 100%
   );
-  height: 4600px;
+  height: 4634px;
 }
 
 .logo {
-  font-family: 'Outfit';
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
+  
+  font-size: 58px;
   line-height: 40px;
   text-transform: uppercase;
-  color: #2F253E;
+  /* color: #1A1720;;
   text-shadow: white 1px 0px, white 1px 1px, white 0px 1px, white -1px 1px,
-    white -1px 0px, white -1px -1px, white 0px -1px, white 1px -1px;
+    white -1px 0px, white -1px -1px, white 0px -1px, white 1px -1px; */
+  text-shadow: 0 0 2px #fff;
+    color: #1A1720;
+}
+@supports(-webkit-text-stroke: 1px white) {
+  .logo {
+    text-shadow: none;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
 }
 
 /* Green */
@@ -55,9 +64,7 @@
   background: linear-gradient(111.31deg, #fda0ff 1.12%, #4082ff 73.22%);
 }
 
-.footerLine {
-  background: linear-gradient(90deg, #fba0ff 0%, #4083ff 98.96%);
-}
+
 
 .sideBarBg {
   background: linear-gradient(
@@ -138,3 +145,58 @@ background: #9E00FF;
     left: 482px;
     top: -18px;
 }
+
+.footerline {
+  position: absolute;
+    width: 100%;
+    height: 18px;
+    left: 0px;
+    top: 4616px;
+  
+    background: linear-gradient(90deg, #FBA0FF 0%, #4083FF 98.96%);
+}
+
+.footerText{
+  position: absolute;
+  
+  
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+  
+  
+    letter-spacing: 0.135em;
+    text-transform: capitalize;
+  
+    color: #FFFFFF;
+}
+
+.footerSecondaryText{
+font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 31px;
+  
+
+  letter-spacing: 0.135em;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+  position: absolute;
+}
+
+.footerInput{
+  position: absolute;
+    width: 360px;
+    height: 66px;
+    left: 1160px;
+    top: 4457px;
+  
+    background: #D9D9D9;
+    opacity: 0.1;
+    border-radius: 58px;
+}
+

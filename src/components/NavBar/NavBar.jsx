@@ -6,7 +6,7 @@ export const NavBar = () => {
       <div className=' z-[0] rounded-full  pinkBlob' />
       <nav className="flex items-center justify-between">
         <a href="#home" className="logo">
-          kirin
+        kirin
         </a>
         <ul className="flex items-center justify-center gap-x-[63px] text-primaryText">
           <li>
