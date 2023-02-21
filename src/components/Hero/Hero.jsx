@@ -2,7 +2,7 @@ import space from '../../img/space.png';
 
 export const Hero = () => {
   return (
-    <section className="py-[140px] ">
+    <section className="py-[160px] ">
       <div className="flex justify-around items-center">
         <div className="font-extrabold">
           <h1 className="font-outfit non-italic  text-[64px] leading-[68px] text-primaryText capitalize">

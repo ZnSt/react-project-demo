@@ -30,7 +30,11 @@ export const Footer = () => {
             </div>
 
 
-            <input type="text" name="input" value="email Address " className="footerInput "></input>
+            <input
+                type="text"
+                name="input"
+                placeholder="email Address" 
+                className="footerInput "></input>
 
             
         </div>

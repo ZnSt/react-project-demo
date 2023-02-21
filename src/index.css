@@ -60,11 +60,54 @@
  
 }
 
-.modalColor {
-  background: linear-gradient(111.31deg, #fda0ff 1.12%, #4082ff 73.22%);
+.GetStartedSection {
+  position: absolute;
+    width: 1120px;
+    height: 711px;
+    left: 400px;
+    top: 3450px;
+  
+    background: linear-gradient(111.31deg, #FDA0FF 1.12%, #4082FF 73.22%);
+    border-radius: 40px;
 }
 
-
+.GSSText {
+  position: absolute;
+    width: 324px;
+    height: 60px;
+    left: 804px;
+    top: 3518px;
+  
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 60px;
+    /* identical to box height, or 167% */
+  
+    text-transform: uppercase;
+  
+    color: #000000;
+}
+ 
+.Be_A_Part_Text{
+  position: absolute;
+    width: 771px;
+    height: 164px;
+    left: 594px;
+    top: 3650px;
+  
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 90px;
+    
+  
+    text-transform: capitalize;
+  
+    color: #FFFFFF;
+}
 
 .sideBarBg {
   background: linear-gradient(
@@ -113,12 +156,24 @@
 /* Color Balls */
 
 .purpleBlob {
-  background-color: #e39dff;
+position: absolute;
+  width: 428px;
+  height: 452px;
+  left: 183px;
+  top: 3279px;
+
+  background: #E39DFF;
   filter: blur(186px);
 }
 
 .blueBlob {
-  background-color: #4082ff;
+position: absolute;
+  width: 484px;
+  height: 468px;
+  left: 1209px;
+  top: 3814px;
+
+  background: #4082FF;
   filter: blur(199.5px);
 }
 
@@ -199,4 +254,5 @@ font-family: 'Outfit';
     opacity: 0.1;
     border-radius: 58px;
 }
+
 

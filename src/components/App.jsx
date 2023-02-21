@@ -2,6 +2,7 @@ import '../index.css';
 import { NavBar } from './NavBar';
 import { Hero } from './Hero';
 import { Footer } from './Footer';
+import { GetStarted } from './GetStarted';
 
 export const App = () => {
   return (
@@ -18,11 +19,13 @@ export const App = () => {
         </div>
       </div>
       
-<div className="flex items-center justify-center">
+      <div className="flex items-center justify-center">
         <div className="w-full xl:max-w-[1280px]">
           <Footer />
         </div>
-        </div>
+      </div>
+      
+<GetStarted />
       
 
   
